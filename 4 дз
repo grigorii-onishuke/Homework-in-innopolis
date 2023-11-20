@@ -1,0 +1,6 @@
+global_variable = 1
+def calc_sum(parameter):
+    enclosing_variable = 12
+    local_variable= 123
+    return global_variable + enclosing_variable + local_variable + parameter
+print(calc_sum(1234))
