@@ -1,0 +1,9 @@
+operation = int(input())
+def match(operation):
+    if operation == "save": 
+        print("сохранить") 
+    elif operation == "load": 
+        print("загрузить") 
+    else: 
+        print("неизвестная операция")
+    return operation
