@@ -1,0 +1,3 @@
+kolichestvo_kotov = input('введите предложение про котов')
+vsego_kotov = kolichestvo_kotov.count('кот') + kolichestvo_kotov.count('Кот') + kolichestvo_kotov.count('КОТ')
+print(vsego_kotov)
